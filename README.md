@@ -65,12 +65,21 @@ The design includes modular RTL blocks for **encoding, syndrome-based error dete
 ---
 
 ## 📁 Project Structure
-hamming-code-verilog
-├── ham_encoder.v
-├── ham_decoder.v
-├── ham_decoder_correct.v
-├── tb_encoder.v
-├── tb_decoder.v
-├── tb_decoder_correct.v
-├── waveform.png
+hamming-code-verilog/
+│
+├── design/
+│   ├── ham_encoder.v
+│   ├── ham_decoder.v
+│   └── ham_decoder_correct.v
+│
+├── testbench/
+│   ├── tb_ham_encoder.v
+│   ├── tb_ham_decoder.v
+│   └── tb_ham_decoder_correct.v
+│
+├── waveform/
+│   ├── ham_encoder_waveform.png
+│   ├── ham_decoder_waveform.png
+│   └── ham_decoder_correct_waveform.png
+│
 └── README.md
