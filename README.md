@@ -10,7 +10,7 @@ The design includes modular RTL blocks for **encoding, syndrome-based error dete
 ## ⚙️ Features
 - ✅ Single-bit error detection  
 - ✅ Single-bit error correction  
-- ✅ Parity bit generation using XOR logic  
+- ✅ Parity bit generation using XOR logic
 - ✅ Syndrome calculation for error localization  
 - ✅ Bit correction using XOR operation  
 - ✅ Verified using simulation testbench  
